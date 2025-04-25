@@ -1,0 +1,24 @@
+# ColorChat Configuration
+
+# General Settings
+settings:
+  # Enable/disable the plugin
+  enabled: true
+
+  # Character used for color codes (default: &)
+  color-code-symbol: '&'
+
+# Messages
+messages:
+  no-permission: '&cYou do not have permission to use color codes in chat.'
+  plugin-enabled: '&aColouredChat plugin has been enabled!'
+  plugin-disabled: '&cColouredChat plugin has been disabled!'
+  config-reloaded: '&aConfiguration has been reloaded!'
+
+# Permission Settings
+permissions:
+  # Should players with permission be able to use color codes
+  use-color-codes: true
+
+  # Should operators (OP players) have permission by default
+  ops-have-permission: true
