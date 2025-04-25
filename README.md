@@ -66,7 +66,7 @@ yaml# ColorChat Configuration
 
 # General Settings
 settings:
-  # Enable/disable the plugin
+ Enable/disable the plugin
   enabled: true
   
   # Character used for color codes (default: &)
@@ -81,12 +81,9 @@ messages:
 
 # Permission Settings
 permissions:
-  # Should players with permission be able to use color codes
-  use-color-codes: true
-  
-  # Should operators (OP players) have permission by default
-  ops-have-permission: true
+    use-color-codes: true
+    ops-have-permission: true
 Support
-If you encounter any issues with the plugin, please report them on the Discord!
+If you encounter any issues with the plugin, please report them on the Discord! 
 License
 This plugin is released under the MIT License.
