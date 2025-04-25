@@ -23,7 +23,7 @@ For example:
 Hello &aworld&r! This is a &bcolored &cmessage&r!
 will appear as:
 
-Hello $${\color{red}world}$$! This is a $${\color{aqua}coloured}$$ $${\color{yellow}message}$$! \
+Hello $${\color{#55FF55}world}$$! This is a $${\color{#55FFFF}coloured}$$ $${\color{#FF5555}message}$$! \
 Color Codes
 
 &0: $${\color{#000000}Black}$$\
