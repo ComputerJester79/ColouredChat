@@ -23,7 +23,7 @@ For example:
 Hello &aworld&r! This is a &bcolored &cmessage&r!
 will appear as:
 
-Hello $${\color{red}world}$$! This is a $${\color{aqua}coloured}$$ $${\color{yellow}message}$$!
+Hello $${\color{red}world}$$! This is a $${\color{aqua}coloured}$$ $${\color{yellow}message}$$! \
 Color Codes
 
 &0: $${\color{#000000}Black}$$\
@@ -41,51 +41,49 @@ Color Codes
 &c: $${\color{#FF5555}Red}$$\
 &d: $${\color{#FF55FF}Light\ Purple}$$\
 &e: $${\color{#FFFF55}Yellow}$$\
-&f: $${\color{#FFFFFF}White}$$\
+&f: $${\color{#FFFFFF}White}$$
 
-Formatting Codes
+Formatting Codes 
 
-&k: Obfuscated (Magic) Text becomes randomly replaced with different characters
-&l: Bold 
-&m: Strikethrough 
-&n: Underline
-&o: Italic
-&r: Reset
+&k: Obfuscated (Magic) Text becomes randomly replaced with different characters \
+&l: Bold \
+&m: Strikethrough \
+&n: Underline \
+&o: Italic \
+&r: Reset 
 
-Commands
+Commands 
 
-/colorchat or /cc: Shows information about the plugin and available color codes
-/colorchat reload or /cc reload: Reloads the plugin configuration (requires colorchat.admin permission)
+/colorchat or /cc: Shows information about the plugin and available color codes \
+/colorchat reload or /cc reload: Reloads the plugin configuration (requires colorchat.admin permission) 
 
-Permissions
+Permissions 
 
-colorchat.use: Allows players to use color codes in chat messages
-colorchat.admin: Allows access to administrative commands like reload
+colorchat.use: Allows players to use color codes in chat messages \
+colorchat.admin: Allows access to administrative commands like reload 
 
-Configuration
-The config.yml file contains settings for the plugin:
-yaml# ColorChat Configuration
+Configuration \
+The config.yml file contains settings for the plugin
 
-# General Settings
-settings:
-  Enable/disable the plugin
-    enabled: true
+# General Settings 
+settings: \
+  Enable/disable the plugin \
+    enabled: true 
   
-  # Character used for color codes (default: &)
-  color-code-symbol: '&'
+   Character used for color codes (default: &)
   
    # Messages
  messages:
-       no-permission: '&cYou do not have permission to use color codes in chat.'
-       plugin-enabled: '&aColorChat plugin has been enabled!'
-       plugin-disabled: '&cColorChat plugin has been disabled!'
-       config-reloaded: '&aConfiguration has been reloaded!'
+       no-permission: '&cYou do not have permission to use color codes in chat.' \
+       plugin-enabled: '&aColorChat plugin has been enabled!' \
+       plugin-disabled: '&cColorChat plugin has been disabled!' \
+       config-reloaded: '&aConfiguration has been reloaded!' 
 
 # Permission Settings
-permissions:
-    use-color-codes: true
-    ops-have-permission: true
-Support
-If you encounter any issues with the plugin, please report them on the Discord! 
-License
+permissions: \
+    use-color-codes: true \
+    ops-have-permission: true 
+Support \
+If you encounter any issues with the plugin, please report them on the Discord! \
+License \
 This plugin is released under the MIT License.
