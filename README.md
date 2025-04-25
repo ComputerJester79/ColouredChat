@@ -23,12 +23,12 @@ For example:
 Hello &aworld&r! This is a &bcolored &cmessage&r!
 will appear as:
 
-Hello $${\color{red}world}$$! This is a <code style="color : aqua">coloured</code> <code style="color : red">message</code>!
+Hello $${\color{red}world}$$! This is a $${\color{aqua}coloured}$$ $${\color{yellow}message}$$!
 Color Codes
 
-&0: Black
-&1: Dark Blue
-&2: Dark Green
+&0: <span style="color:#000000">This text is black</span>
+&1: $${\color{blue}Blue}$$
+&2: $${\color{green}Green}$$
 &3: Dark Aqua
 &4: Dark Red
 &5: Dark Purple
