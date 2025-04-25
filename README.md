@@ -18,10 +18,12 @@ Usage
 For Players
 If you have the colorchat.use permission, you can use color codes in your chat messages.
 Simply type the & character followed by a color code to add colors to your message.
+
 For example:
 Hello &aworld&r! This is a &bcolored &cmessage&r!
 will appear as:
-Hello <code style="color : green">world</code>! This is a <code style="color : aqua">coloured</code> <code style="color : red">message</code>!
+
+Hello $${\color{red}world}$$! This is a <code style="color : aqua">coloured</code> <code style="color : red">message</code>!
 Color Codes
 
 &0: Black
