@@ -21,7 +21,7 @@ Simply type the & character followed by a color code to add colors to your messa
 For example:
 Hello &aworld&r! This is a &bcolored &cmessage&r!
 will appear as:
-Hello <span style="color:green">world</span>! This is a <span style="color:aqua">colored</span> <span style="color:red">message</span>!
+Hello <code style="color : green">world</code>! This is a <code style="color : aqua">coloured</code> <code style="color : red">message</code>!
 Color Codes
 
 &0: Black
